@@ -1,4 +1,4 @@
-public class hello {
+public class variableanddatatype {
     public static void main(String args[])
     {
         int a = 10;
