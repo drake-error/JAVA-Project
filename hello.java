@@ -1,6 +1,11 @@
-public class hello {
+import java.lang.System;
+import java.util.Scanner;
+
+class hello {
     public static void main(String args[])
     {
-        System.out.print("Hello World");
+        Scanner Darwin = new Scanner(System.in);
+        String b = Darwin.nextLine();
+        System.out.print(b);
     }
 }
