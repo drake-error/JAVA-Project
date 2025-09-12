@@ -13,5 +13,9 @@ class ifelse {
         {
             System.out.println("Take an umbrella");
         }
+        else
+        {
+            System.out.println("Enjoy the sunlight");
+        }
     }
 }
