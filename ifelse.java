@@ -8,9 +8,10 @@ class ifelse {
 
         //System.out.print("Enjoy the sunlight");
 
-        if(true)
+        boolean rain = false;
+        if (rain)
         {
-            System.out.println("Yes");
+            System.out.println("Take an umbrella");
         }
     }
 }
