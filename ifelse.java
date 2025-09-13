@@ -15,7 +15,7 @@ class ifelse {
         }
         else
         {
-            System.out.println("Enjoy the sunlight");
+            System.out.println("Enjoy the sunlightt");
         }
     }
 }
