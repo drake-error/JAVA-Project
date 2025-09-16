@@ -7,4 +7,6 @@ public class variableanddatatype {
         int d = a+b+c;
         System.out.print(d);
     }
+    
+
 }
