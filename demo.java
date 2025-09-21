@@ -1,15 +1,24 @@
+import java.util.Scanner;
 class demo {
     public static void main(String[] args) 
     {
-        int num1 = 20;
-        int num2 = 70;
+        //Check whether Number 1 and Number 2 are equal or not
 
-        if (num1 > num2) 
+        Scanner scan = new Scanner(System.in);
+        int num1 = scan.nextInt();
+        int num2 = scan.nextInt();
+
+        if(num1 == num2)
         {
-            System.out.println("num1 is greater than num2");
-        } else 
-        {
-            System.out.println("num2 is greater than num1");
+            System.out.println("Both the numbers are equal");
         }
+        else
+        {
+            System.out.println("Not equal");
+        }
+        
     }
+    
 }
+
+      
