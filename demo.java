@@ -1,8 +1,8 @@
 class demo {
     public static void main(String[] args) 
     {
-        int num1 = 70;
-        int num2 = 20;
+        int num1 = 20;
+        int num2 = 70;
 
         if (num1 > num2) 
         {
