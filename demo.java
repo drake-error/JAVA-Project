@@ -6,6 +6,7 @@ class demo {
         String f2 = new String ("apple");
 
         System.out.println(f1.equals(f2));
+        System.out.println(f1==f2);
         
     }
     
