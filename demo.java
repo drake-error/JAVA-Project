@@ -2,11 +2,18 @@ import java.util.Scanner;
 class demo {
     public static void main(String[] args) 
     {
-        String f1 = new String ("apple");
-        String f2 = new String ("apple");
+        Scanner scan = new Scanner(System.in);
+        String meghana = scan.nextLine();  
 
-        System.out.println(f1.equals(f2));
-        System.out.println(f1==f2);
+        if (meghana.equals("dead"))
+        {
+            System.out.print("Surya meets ramya");
+        }
+        else
+        {
+            System.out.print("Surya weds meghana");
+        } 
+        
         
     }
     
