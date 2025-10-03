@@ -2,17 +2,18 @@ import java.util.Scanner;
 class demo {
     public static void main(String[] args) 
     {
-        Scanner scan = new Scanner(System.in);
-        int income = scan.nextInt();  
+        // Hungry + Ice Cream = Eat
+        boolean hungry = true;
+        boolean iceCream = true;
 
-        if (income>70000)
+        if(hungry && iceCream)
         {
-            System.out.print("Scholarship is available");
+            System.out.println("Eat");
         }
         else
         {
-            System.out.print("not eligible for scholarship");
-        } 
+            System.out.println("Do not Eat");
+        }
         
         
     }
