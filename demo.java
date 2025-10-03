@@ -2,17 +2,22 @@ import java.util.Scanner;
 class demo {
     public static void main(String[] args) 
     {
-        // Hungry + Ice Cream = Eat
-        boolean hungry = true;
-        boolean iceCream = true;
+        // Cricket or Football = Play
+        // true or true = true (play)
+        // true or false = true (play)
+        // false or true = true (play)
+        // false or false = false (do not play)
 
-        if(hungry && iceCream)
+        boolean Cricket = false;
+        boolean Football = false;
+
+        if(Cricket || Football)
         {
-            System.out.println("Eat");
+            System.out.println("Play");
         }
         else
         {
-            System.out.println("Do not Eat");
+            System.out.println("Do not Play");
         }
         
         
