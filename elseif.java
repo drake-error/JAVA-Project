@@ -1,23 +1,25 @@
-public class elseif {
+public class elseif{
     public static void main(String args[])
     {
-        int score = 70;
+        boolean kfc = true;
+        boolean chicken = true;
+        boolean pepsi = true;
 
-        if (score>35 && score<60)
-        {
-            System.out.print("Video Game");
+        if(kfc)
+        { 
+            System.out.println("Enter into KFC");
         }
-        else if(score>60 && score<90)
-        {
-            System.out.print("Iphone");
-        }
-        else if(score>90)
-        {
-            System.out.print("Macbook");
-        }
-        
-      
+
+            if(chicken)
+            {
+                System.out.println("Eating Chicken");
+            }
+                if(pepsi)
+                {
+                System.out.println("Drinking Pepsi");
+                }
+            
     }
-    
 
-}
+        
+}    
