@@ -3,15 +3,15 @@ class demo {
     public static void main(String[] args) 
     {
         Scanner scan = new Scanner(System.in);
-        String meghana = scan.nextLine();  
+        int income = scan.nextInt();  
 
-        if (meghana.equals("dead"))
+        if (income>70000)
         {
-            System.out.print("Surya meets ramya");
+            System.out.print("Scholarship is available");
         }
         else
         {
-            System.out.print("Surya weds meghana");
+            System.out.print("not eligible for scholarship");
         } 
         
         
