@@ -1,19 +1,24 @@
+import java.util.Scanner;
+
 public class elseif{
     public static void main(String args[])
     {
-       int score = 75;
+       Scanner scan = new Scanner(System.in);
+       int s1 = scan.nextInt();
+       int s2 = scan.nextInt();
+       int s3 = scan.nextInt();
+       int s4 = scan.nextInt();
+       int s5 = scan.nextInt();
 
-        if(score<50)
-        { 
-            System.out.println("Need to improve");
-        }
-        else if(score>=50 && score<=75)
+       int avg = (s1+s2+s3+s4+s5)/5;
+
+         if(avg<30)
+         {
+          System.out.println("Additional classes are required");
+         }
+         else
         {
-            System.out.println("Good job");
-        }
-        else
-        {
-            System.out.println("Very Good");
+            System.out.println("No need of additional classes");
         }
         
 }   
