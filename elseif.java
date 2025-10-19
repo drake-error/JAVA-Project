@@ -12,7 +12,7 @@ public class elseif{
 
        int avg = (s1+s2+s3+s4+s5)/5;
 
-         if(avg<30)
+         if(avg<35)
          {
           System.out.println("Additional classes are required");
          }
