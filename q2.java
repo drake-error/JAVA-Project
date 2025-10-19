@@ -7,7 +7,9 @@ class q2 {
         int num1 = scan.nextInt();
         int num2 = scan.nextInt();
 
-        String result = (num1 > num2) ? (num1 + " is greater") : (num2 > num1) ? (num2 + " is greater") : "Both are equal";
+        String result = (num1 > num2) ? (num1 + " is greater") :
+                        (num2 > num1) ? (num2 + " is greater") :
+                        "Both numbers are equal";
 
         System.out.println(result);
         scan.close();
