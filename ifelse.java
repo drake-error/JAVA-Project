@@ -9,7 +9,10 @@ class ifelse {
         }
         else
         {
-            System.out.println("Odd Number:"+i);
+            int oddcount =0;
+            oddcount = oddcount+1;
+            //System.out.println("Odd Number:"+i);
+            System.out.println(oddcount);
         }
        }
           
