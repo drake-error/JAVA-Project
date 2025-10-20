@@ -1,5 +1,6 @@
 class ifelse {
     public static void main(String[] args) {
+        int oddcount =0;
        for(int i=1; i<=10; i=i+1)
        {
         // print even numbers only
@@ -9,7 +10,6 @@ class ifelse {
         }
         else
         {
-            int oddcount =0;
             oddcount = oddcount+1;
             //System.out.println("Odd Number:"+i);
             System.out.println(oddcount);
