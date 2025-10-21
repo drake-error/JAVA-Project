@@ -8,7 +8,7 @@ class array {
             {
                 System.out.print("* ");
             }
-            System.out.println();
+            System.out.println("Nested for loop");
         }
     }
 }
