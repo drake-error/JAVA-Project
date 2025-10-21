@@ -2,14 +2,13 @@ import java.util.Scanner;
 class array {
     public static void main(String args[])
     { 
-        //Get input for size of an array
-        Scanner scan = new Scanner(System.in);
-        int size = scan.nextInt();
-        int[] marks = new int[size];
-
-        for (int i = 0; i <= size-1; i=i+1)
+        for (int i=1; i<=3; i=i+1)
         {
-            marks[i] = scan.nextInt();
+            for (int j=1; j<=3; j=j+1)
+            {
+                System.out.print("* ");
+            }
+            System.out.println();
         }
     }
 }
