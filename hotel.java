@@ -14,8 +14,10 @@
 //         hotel Server2 = new hotel();
 //         System.out.println(Server2.tea);
 //     }
-// }
+// } 
 
+
+//Understanding Classes and Objects
 public class laptop {
     String name = "";
     String proc = "";
