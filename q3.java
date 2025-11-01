@@ -15,18 +15,19 @@
 // }
 
 public class q3 {
+    // class called garden not q3
 
-    int a = 10;
-    int b = 20;
+    int apple_price  = 20;
+    int apple_count = 5;
 
-    void sum()
+    void total_money()
     {
-        System.out.println(30);
+        System.out.println(apple_price * apple_count);
     }
 
     public static void main(String[] args) 
     {
         q3 obj = new q3();
-        obj.sum();
+        obj.total_money();
     }
 }
