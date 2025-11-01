@@ -51,3 +51,4 @@ public class q2 {
         obj.divide(10,2);
     }
 }
+// learnt Function Parameters and created functions for arithmetic operations
