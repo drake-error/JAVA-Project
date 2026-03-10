@@ -8,17 +8,25 @@
 //     }
 // }
 
-import java.lang.System;
-import java.util.Scanner;
+// import java.lang.System;
+// import java.util.Scanner;
 
-class basics{
+// class basics{
+//     public static void main(String args[])
+//     {
+//         Scanner number = new Scanner(System.in);
+//         int a = number.nextInt();
+//         int b = number.nextInt();
+//         int c = a+b;
+
+//         System.out.println(c);
+//     }
+// }
+
+class basics {
     public static void main(String args[])
     {
-        Scanner number = new Scanner(System.in);
-        int a = number.nextInt();
-        int b = number.nextInt();
-        int c = a+b;
-
-        System.out.println(c);
+        String a = "Hello,World!";
+        System.out.print(a.charAt(7));
     }
 }
