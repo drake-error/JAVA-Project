@@ -71,16 +71,33 @@
 
 import java.util.Scanner;
 
-class q2 {
+// class q2 {
+//     public static void main(String args[])
+//     {
+//         Scanner scan = new Scanner(System.in);
+//         String name = scan.nextLine();
+//         double score = scan.nextDouble();
+//         scan.nextLine();
+//         String department = scan.nextLine();
+//         System.out.println("My Name is "+name);
+//         System.out.println("My Score is "+score/10 +"/10");
+//         System.out.print("My department is "+department);
+//     }
+// }
+
+public class q2 {
     public static void main(String args[])
     {
         Scanner scan = new Scanner(System.in);
-        String name = scan.nextLine();
-        double score = scan.nextDouble();
-        scan.nextLine();
-        String department = scan.nextLine();
-        System.out.println("My Name is "+name);
-        System.out.println("My Score is "+score/10 +"/10");
-        System.out.print("My department is "+department);
+        String Meghana = scan.nextLine();
+
+        if(Meghana.equals("Dead"))
+
+        {
+            System.out.print("Surya meets ramya");
+        }
+        else{
+            System.out.print("Surya weds meghana");
+        }
     }
 }
