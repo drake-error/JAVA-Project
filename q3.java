@@ -14,20 +14,38 @@
 //     }
 // }
 
+// public class q3 {
+//     // class called garden not q3
+
+//     int apple_price  = 20;
+//     int apple_count = 5;
+
+//     void total_money()
+//     {
+//         System.out.println(apple_price * apple_count);
+//     }
+
+//     public static void main(String[] args) 
+//     {
+//         q3 obj = new q3();
+//         obj.total_money();
+//     }
+// }
+
+import java.util.Scanner;
+
 public class q3 {
-    // class called garden not q3
-
-    int apple_price  = 20;
-    int apple_count = 5;
-
-    void total_money()
+    public static void main(String args[])
     {
-        System.out.println(apple_price * apple_count);
-    }
+        Scanner scan = new Scanner(System.in);
+        int income = scan.nextInt();
 
-    public static void main(String[] args) 
-    {
-        q3 obj = new q3();
-        obj.total_money();
+        if(income>7000)
+        {
+            System.out.print("Eligible for Scholarship");
+        }
+        else{
+            System.out.print("Not Eligible for Scholarship");
     }
+}
 }
