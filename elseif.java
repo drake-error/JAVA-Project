@@ -29,9 +29,9 @@ public class elseif {
     public static void main(String args[])
     {
         Scanner scan = new Scanner(System.in);
-        String RCB = "loose";
+        String RCB = "loose"; //inside rcb loose is stored
 
-        if(RCB.equals("win"))
+        if(RCB.equals("win")) // here it goes like "LOOSE.EQUALS(WIN)" WHICH IS FALSE SO GOES TO ELSE&PRINTS CUP ILLA HEHE.
         {
             System.out.print("EE SALA CUP NAMDHEY");
         }
