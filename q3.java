@@ -32,20 +32,38 @@
 //     }
 // }
 
+// import java.util.Scanner;
+
+// public class q3 {
+//     public static void main(String args[])
+//     {
+//         Scanner scan = new Scanner(System.in);
+//         int income = scan.nextInt();
+
+//         if(income>7000)
+//         {
+//             System.out.print("Eligible for Scholarship");
+//         }
+//         else{
+//             System.out.print("Not Eligible for Scholarship");
+//     }
+// }
+// }
+
 import java.util.Scanner;
 
 public class q3 {
     public static void main(String args[])
     {
         Scanner scan = new Scanner(System.in);
-        int income = scan.nextInt();
+        int num = scan.nextInt();
 
-        if(income>7000)
+        if(num%3==0 && num%5==0)
         {
-            System.out.print("Eligible for Scholarship");
+            System.out.print("Number is divisible by 3 and 5");
         }
         else{
-            System.out.print("Not Eligible for Scholarship");
+            System.out.print("Number is not divisible by 3 and 5");
+        }
     }
-}
 }
