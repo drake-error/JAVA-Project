@@ -37,7 +37,7 @@ public class hi{
         }
         else if(n%2==0 && n>=2 && n<=5)
         {
-            System.out.print("Not Werid");
+            System.out.print("Not Weird");
         }
         else if(n%2==0 && n>=6 && n<=20)
         {
