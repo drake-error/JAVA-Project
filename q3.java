@@ -50,20 +50,49 @@
 // }
 // }
 
+// import java.util.Scanner;
+
+// public class q3 {
+//     public static void main(String args[])
+//     {
+//         Scanner scan = new Scanner(System.in);
+//         int num = scan.nextInt();
+
+//         if(num%3==0 && num%5==0)
+//         {
+//             System.out.print("Number is divisible by 3 and 5");
+//         }
+//         else{
+//             System.out.print("Number is not divisible by 3 and 5");
+//         }
+//     }
+// }
+
 import java.util.Scanner;
 
-public class q3 {
-    public static void main(String args[])
-    {
-        Scanner scan = new Scanner(System.in);
-        int num = scan.nextInt();
+public class q3{
 
-        if(num%3==0 && num%5==0)
-        {
-            System.out.print("Number is divisible by 3 and 5");
-        }
-        else{
-            System.out.print("Number is not divisible by 3 and 5");
-        }
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        String s1 = scan.nextLine();
+        int x = scan.nextInt();
+        scan.nextLine();
+
+        String s2 = scan.nextLine();
+        int y = scan.nextInt();
+        scan.nextLine();
+
+        String s3 = scan.nextLine();
+        int z = scan.nextInt(); 
+
+        System.out.println("======================");
+
+
+        System.out.printf("%-15s%03d%n" , s1 ,x);
+        System.out.printf("%-15s%03d%n" , s2 , y);
+        System.out.printf("%-15s%03d%n" , s3 , z);
+
+        System.out.printf("======================");
     }
 }
