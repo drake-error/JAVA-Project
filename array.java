@@ -65,7 +65,7 @@
 
 // } // <--- This brace finishes Layer 1
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
 // class array {
 //     public static void main(String[] args)
@@ -85,21 +85,18 @@
 //     }
 // }
 
-import java.util.Scanner;
-
 public class array{
     public static void main(String[] args)
     {
-        Scanner scan = new Scanner(System.in);
-        int[] num = new int[10];
+        int[] num = new int[11];
 
-        for(int i=0; i<=9;i=i+1)
+        for(int i=1; i<=10;i=i+1)
         {
-            num[i]=scan.nextInt();
+            num[i]= i*2;
         }
-        for(int i=0; i<=9;i=i+1)
+        for(int i=1; i<=10;i=i+1)
         {
-            System.out.println(num[i]);
+            System.out.println("2x"+i+"="+num[i]);
         }
     }
 }
