@@ -85,18 +85,20 @@ import java.util.Scanner;
 //     }
 // }
 
+import java.util.Scanner;
 public class array{
     public static void main(String[] args)
     {
+        Scanner scan = new Scanner(System.in);
         int[] num = new int[11];
-
+        int S = scan.nextInt();
         for(int i=1; i<=10;i=i+1)
         {
-            num[i]= i*2;
+            num[i]= i*S;
         }
         for(int i=1; i<=10;i=i+1)
         {
-            System.out.println("2x"+i+"="+num[i]);
+            System.out.println(S+"x"+i+"="+num[i]);
         }
     }
 }
