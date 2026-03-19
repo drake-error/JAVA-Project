@@ -73,10 +73,10 @@ import java.util.Scanner;
 public class q3{
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in); //want to match the sample output in q
         
         String s1 = scan.nextLine();
-        int x = scan.nextInt();
+        int x = scan.nextInt(); //first take input for given variables
         scan.nextLine();
 
         String s2 = scan.nextLine();
@@ -86,13 +86,14 @@ public class q3{
         String s3 = scan.nextLine();
         int z = scan.nextInt(); 
 
-        System.out.println("======================");
+        System.out.println("======================");  // matching the format
 
 
-        System.out.printf("%-15s%03d%n" , s1 ,x);
-        System.out.printf("%-15s%03d%n" , s2 , y);
-        System.out.printf("%-15s%03d%n" , s3 , z);
+        System.out.printf("%-15s%03d%n" , s1 ,x);  //%-to start command , - =LEFT-ALINGMENT FOR TWO COLUMNS ADD %s followed by char mentioned for many columns
+        System.out.printf("%-15s%03d%n" , s2 , y); //03d - for padding zeroes for less than 3 digits
+        System.out.printf("%-15s%03d%n" , s3 , z); //%n- NEW LINE
 
         System.out.printf("======================");
     }
 }
+
