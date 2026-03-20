@@ -1,10 +1,10 @@
 // public class hotel {
-    
-//     int coffee = 20;
+//     //THIS IS CLASS FUNCTION
+//     int coffee = 20; // above MAIN fn declaring variable coffee
 //     int tea = 10;
 
 
-//     public static void main(String[] args) 
+//     public static void main(String[] args) //main fn
 //     {
 //         //Creating an object of hotel class
 //         hotel Server1 = new hotel();
