@@ -18,14 +18,16 @@
 
 
 //Understanding Classes and Objects
-// public class laptop {
-//     String name = "";
+// public class laptop { 
+//     //THIS IS CLASSES
+//     String name = ""; // EMPTY DATAS
 //     String proc = "";
 //     int ram = 0;
 //     int price = 0;
 
 //     public static void main(String[] args)
 //     {
+//         //OBJECTS CREATION
 //         laptop lap1 = new laptop();
         
 //         lap1.name = "Dell";
@@ -33,7 +35,7 @@
 //         lap1.ram = 6;
 //         lap1.price = 40000;
 
-//         laptop lap2 = new laptop();
+//         laptop lap2 = new laptop(); // OBJECTS
 //         lap2.name = "Acer";
 //         lap2.proc = "i7";
 //         lap2.ram = 8;
@@ -41,7 +43,7 @@
 //         System.out.println(lap2.price);
 
 //         laptop lap3 = new laptop();
-//         lap3.price = 90000;
+//         lap3.price = 90000; // WE HAVE GIVEN PRICE OF LAP3 AS 90K IF NO DATA IS GIVEN THEN IT ACQUIRES DATA MENTIONED IN CLASS i.e. PRINTS 0
 //         System.out.println(lap3.price);
 
 //     }
