@@ -15,25 +15,6 @@
 //     }
 // }
 
-// Return Keywords
-// void can never return a value
-
-// public class q1 {
-
-//     int getsoap(int money)
-//     {
-//         int soap_price = 18;
-//         int rem = 20-18;
-//         return rem;
-//     }
-
-//     public static void main(String[] args) 
-//     {
-//         q1 obj = new q1();
-//         int remainder = obj.getsoap(20);
-//         System.out.println(remainder);
-//     }
-// }
 import java.util.Scanner;
 
 class q1 {

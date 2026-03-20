@@ -14,20 +14,42 @@
 //     }
 // } 
 
-public class functions{
-    // class called garden not FUNCTIONS
+// public class functions{
+//     // class called garden not FUNCTIONS
 
-    int apple_price  = 20;
-    int apple_count = 5;
+//     int apple_price  = 20;
+//     int apple_count = 5;
 
-    void total_money()
+//     void total_money()
+//     {
+//         System.out.println(apple_price * apple_count);
+//     }
+
+//     public static void main(String[] args) 
+//     {
+//         functions obj = new functions(); // CREATIN OBJECT SYNTAX: CLASS_NAME OBJECT_NAME = NEW CLASS_NAME();
+//         obj.total_money();
+//     }
+// } 
+
+// Return Keywords
+// void can never return a value
+//WITH VARIABLE UR SENDING INFORMATION IS CALLED  FUNCTIONS WIT PARAMETERS
+
+public class functions {
+    // class called Store not fn
+
+    int getsoap(int money) // int money = 20
     {
-        System.out.println(apple_price * apple_count);
+        int soap_price = 18;
+        int rem = 20-18;
+        return rem;
     }
 
-    public static void main(String[] args) 
+    public static void main(String[] args)  //ALWAYS PROGRAM STARTS FROM MAIN fn
     {
-        functions obj = new functions(); // CREATIN OBJECT SYNTAX: CLASS_NAME OBJECT_NAME = NEW CLASS_NAME();
-        obj.total_money();
+        functions obj = new functions(); //creating object for fn
+        int remainder = obj.getsoap(20); //using object we get all data inside call , from here call goes for int getsoap().ur SENDING 20 GETS STORED IN INT MONEY
+        System.out.println(remainder);
     }
 }
