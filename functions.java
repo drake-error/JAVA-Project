@@ -130,7 +130,11 @@ public class functions {
         Scanner scan = new Scanner(System.in); //input from terminal 
         int totalmarks = scan.nextInt(); //we give input as 40
         functions obj1 = new functions(); // we are creating a object For CLASS functions , Obj1 created
-        String result = obj1.passorfail(totalmarks); // in a variable result we equating with calling class passorfail usin obj1 ,inside braces of calling fn shld be input we created i.e totalmarks we gave them as 40
-        System.out.print(result); //40 in total marks carries to class function
-    }
+        String result = obj1.passorfail(totalmarks); 
+        System.out.print(result);
+           }
 }
+/*  in a variable result we equating with calling class passorfail usin obj1 ,
+inside braces of calling fn shld be input we created i.e totalmarks we gave them as 40
+40 in total marks carries to class function*/
+
