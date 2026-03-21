@@ -87,27 +87,50 @@
 //     }
 // }
 
+// import java.util.Scanner;
+// public class functions {
+//     // Class is called FIND not fn
+//     void evenorodd(int num)
+//     {
+//         if(num%2==0)
+//         {
+//         System.out.print("Even");
+//         }
+//         else
+//         {
+//             System.out.print("Odd");
+//         }
+//     }
+//     public static void main(String[] args)
+//     {
+//         Scanner scan = new Scanner(System.in);
+//         int num1= scan.nextInt();
+//         functions obj1 = new functions();
+//         obj1.evenorodd(num1);
+
+//     }
+
+// }
+
 import java.util.Scanner;
 public class functions {
-    // Class is called FIND not fn
-    void evenorodd(int num)
+    //CLASS IS SCHOOL not fn
+    String passorfail(int num) //40 gets stored in num
     {
-        if(num%2==0)
+        if(num>=35 && num<=100) // 40>=35 and 40<100
         {
-        System.out.print("Even");
+        return "pass"; //therefore prints PASS IN TERMINAL
         }
-        else
-        {
-            System.out.print("Odd");
+        else{
+            return "fail";
         }
     }
-    public static void main(String[] args)
+    public static void main(String[] args) //program starts from here
     {
-        Scanner scan = new Scanner(System.in);
-        int num1= scan.nextInt();
-        functions obj1 = new functions();
-        obj1.evenorodd(num1);
-
+        Scanner scan = new Scanner(System.in); //input from terminal 
+        int totalmarks = scan.nextInt(); //we give input as 40
+        functions obj1 = new functions(); // we are creating a object For CLASS functions , Obj1 created
+        String result = obj1.passorfail(totalmarks); // in a variable result we equating with calling class passorfail usin obj1 ,inside braces of calling fn shld be input we created i.e totalmarks we gave them as 40
+        System.out.print(result); //40 in total marks carries to class function
     }
-
 }
