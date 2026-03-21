@@ -54,35 +54,60 @@
 //     }
 // } 
 
-public class functions{
+// public class functions{
 
-    void sum(int num1, int num2)
+//     void sum(int num1, int num2)
 
+//     {
+//         System.out.println((num1 + num2));
+//     }
+
+//     void subtract(int num1, int num2)
+//     {
+//         System.out.println((num1 - num2));
+//     }
+
+//     void multiply(int num1, int num2)
+//     {
+//         System.out.println((num1 * num2));
+//     }
+
+//     void divide(int num1, int num2)
+//     {
+//         System.out.println((num1 / num2));
+//     }
+
+//     public static void main(String[] args) 
+//     {
+//         functions obj = new functions();
+//         obj.sum(10,2);
+//         obj.subtract(10,2);
+//         obj.multiply(10,2);
+//         obj.divide(10,2);
+//     }
+// }
+
+import java.util.Scanner;
+public class functions {
+    // Class is called FIND not fn
+    void evenorodd(int num)
     {
-        System.out.println((num1 + num2));
+        if(num%2==0)
+        {
+        System.out.print("Even");
+        }
+        else
+        {
+            System.out.print("Odd");
+        }
+    }
+    public static void main(String[] args)
+    {
+        Scanner scan = new Scanner(System.in);
+        int num1= scan.nextInt();
+        functions obj1 = new functions();
+        obj1.evenorodd(num1);
+
     }
 
-    void subtract(int num1, int num2)
-    {
-        System.out.println((num1 - num2));
-    }
-
-    void multiply(int num1, int num2)
-    {
-        System.out.println((num1 * num2));
-    }
-
-    void divide(int num1, int num2)
-    {
-        System.out.println((num1 / num2));
-    }
-
-    public static void main(String[] args) 
-    {
-        functions obj = new functions();
-        obj.sum(10,2);
-        obj.subtract(10,2);
-        obj.multiply(10,2);
-        obj.divide(10,2);
-    }
 }
