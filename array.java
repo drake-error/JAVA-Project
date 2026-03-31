@@ -66,26 +66,6 @@
 // } // <--- This brace finishes Layer 1
 
 import java.util.Scanner;
-
-// class array {
-//     public static void main(String[] args)
-//     {
-//         Scanner scan = new Scanner(System.in);
-//         int[] marks = new int[5]; // declaring an array type integer which has 5 positions starting from 0
-
-//         for(int i=0; i<=4;i=i+1) // in loop: step 1: i=0 & 0<=4(cond is TRUE) so goes inside braces where i=0
-//         {
-//             marks[i]= scan.nextInt(); // marks[0] = askin i/p in terminal
-//         } //again goes for loop and starts from i=i=1 i.e. i=0+1 , 1<=0(True) goes inside braces i.e. marks[1] = askin i/p in terminal
-// //loop continues till i=4 and askin i/p for marks in position 5 i.e. marks[5]. all our i/p Numbers gets stored inside ARRAY BOXES
-//         for(int i=0; i<=4;i=i+1) //follows same loop and prints numbers INSIDE BOXES AT THOSE POSITIONS
-//         {
-//             System.out.println(marks[i]);
-//         }
-//     }
-// }
-
-import java.util.Scanner;
 public class array{
     public static void main(String[] args)
     {
@@ -100,5 +80,6 @@ public class array{
         {
             System.out.println(S+"x"+i+"="+num[i]);
         }
+        scan.close();
     }
 }

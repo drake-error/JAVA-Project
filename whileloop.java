@@ -42,7 +42,6 @@
 // }
 
 import java.util.Scanner;
-import java.util.Random;
 
 class whileloop{
     public static void main(String[] args)
@@ -53,6 +52,7 @@ class whileloop{
         do{
             System.out.println("Enter The num > 10:"); // WHATEVER HAPPENS INSIDE DO WILL ALWAYS GET PRINTED IF COND IS TRUE OR FALSE
             count = scan.nextInt();
-        }while(count<10); //IN DO-WHILE , THE WHILE LOOP COND SHLD WORK TO PRINT I/P STREAM WHILE READS BACKWARD!! 
+        }while(count<10); //IN DO-WHILE , THE WHILE LOOP COND SHLD WORK TO PRINT I/P STREAM WHILE READS BACKWARD!!
+        scan.close();
     }
 }

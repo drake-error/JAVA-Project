@@ -30,5 +30,6 @@ class hello {
         {
             System.out.println("No loan");
         }
+        scan.close();
     }
 }

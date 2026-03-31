@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 // public class elseif{
 //     public static void main(String args[])
 //     {
@@ -28,7 +26,7 @@ import java.util.Scanner;
 public class elseif {
     public static void main(String args[])
     {
-        Scanner scan = new Scanner(System.in);
+        java.util.Scanner scan = new java.util.Scanner(System.in);
         String RCB = scan.nextLine(); // loose gets stored here 
 
         if(RCB.equals("win")) // here it goes like "LOOSE.EQUALS(WIN)" WHICH IS FALSE SO GOES TO ELSE&PRINTS CUP ILLA HEHE.
@@ -39,5 +37,6 @@ public class elseif {
         {
             System.out.print("Cup illa");
         }
+        scan.close();
     }
 }

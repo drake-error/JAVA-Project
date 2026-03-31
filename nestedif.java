@@ -55,7 +55,7 @@ public class nestedif {
         int s3= scan.nextInt();
         int s4= scan.nextInt();
         int s5= scan.nextInt();
-        int average = (1+s2+s3+s4+s5)/5;
+        int average = (s1+s2+s3+s4+s5)/5;
 
         if(average<35)
         {
@@ -64,6 +64,6 @@ public class nestedif {
         else{
             System.out.print("You are good to go");
         }
-
+        scan.close();
     }
 }

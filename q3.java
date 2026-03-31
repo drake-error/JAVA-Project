@@ -77,6 +77,7 @@ public class q3{
         System.out.printf("%-15s%03d%n" , s3 , z); //%n- NEW LINE
 
         System.out.printf("======================");
+        scan.close();
     }
 }
 

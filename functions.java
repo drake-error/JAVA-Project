@@ -132,7 +132,8 @@ public class functions {
         functions obj1 = new functions(); // we are creating a object For CLASS functions , Obj1 created
         String result = obj1.passorfail(totalmarks); 
         System.out.print(result);
-           }
+        scan.close();
+    }
 }
 /*  in a variable result we equating with calling class passorfail usin obj1 ,
 inside braces of calling fn shld be input we created i.e totalmarks we gave them as 40

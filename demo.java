@@ -42,6 +42,7 @@ else
 {
     System.out.print("Number 1 is not Equal to Number 2");
 }
+        scan.close();
     }
 }
 

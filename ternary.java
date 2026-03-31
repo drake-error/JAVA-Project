@@ -8,5 +8,6 @@ public class ternary {
      String result=a>b? "A is greater":"B is Greater";
 
         System.out.print(result);
+        scan.close();
     }
 }

@@ -22,8 +22,6 @@
 // }
 
 import java.util.Scanner;
-import java.util.concurrent.*;
-import java.util.regex.*;
 
 public class hi{
     public static void main(String args[])
@@ -47,5 +45,6 @@ public class hi{
         {
             System.out.print("Not Weird");
         }
+        scan.close();
     }
 }

@@ -28,6 +28,7 @@ class q1 {
         System.out.println("My Name is "+name);
         System.out.println("My Age is "+age);
         System.out.println("My Address is "+address);
+        scan.close();
     }
     
 }

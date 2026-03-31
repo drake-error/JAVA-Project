@@ -40,5 +40,6 @@ public class forloop {
         
     }
     System.out.println("Oddcount:"+Oddcount); // Prints Final oddcount value AFTER LOOP BREAKS 
+    scan.close();
 }
 }

@@ -67,5 +67,6 @@ public class q2 {
         else{
             System.out.print("Surya weds meghana");
         }
+        scan.close();
     }
 }

@@ -16,8 +16,6 @@
 //     }
 // }
 
-import java.util.Scanner;
-
 class ifelse {
     public static void main(String args[])
     {
